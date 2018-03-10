@@ -1,0 +1,29 @@
+{
+  "name": "HWorldWbBabel",
+  "version": "1.0.0",
+  "description": "HWorldWbBabel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybk/HWorldWbBabel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybk/HWorldWbBabel/issues"
+  },
+  "homepage": "https://github.com/cybk/HWorldWbBabel#readme",
+  "dependencies": {
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.0.6",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
