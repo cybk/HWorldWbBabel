@@ -10,6 +10,16 @@ module.exports = {
         filename: 'bundle.js'
     },
     plugins: [
-        new HtmlWebpackPlugin()
-    ]
+        new HtmlWebpackPlugin({
+            hash: true,
+            filename: 'index.html'
+        })
+    ],
+    module: {
+        rules: [{
+            test: /\.js/,
+            exclude: /node_modules/,
+            use: 'babel-loader'
+        }]
+    }
 };
